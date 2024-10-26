@@ -9,22 +9,22 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.plcoding.cryptotracker.R
 
-val SpaceMono = FontFamily(
+val JetBrainsMono = FontFamily(
     Font(
-        resId = R.font.space_mono_regular,
+        resId = R.font.jb_mono_regular,
         weight = FontWeight.Normal
     ),
     Font(
-        resId = R.font.space_mono_italic,
+        resId = R.font.jb_mono_italic,
         weight = FontWeight.Normal,
         style = FontStyle.Italic
     ),
     Font(
-        resId = R.font.space_mono_bold,
+        resId = R.font.jb_mono_bold,
         weight = FontWeight.Bold
     ),
     Font(
-        resId = R.font.space_mono_bold_italic,
+        resId = R.font.jb_mono_bold_italic,
         weight = FontWeight.Bold,
         style = FontStyle.Italic
     ),
@@ -33,28 +33,28 @@ val SpaceMono = FontFamily(
 // Set of Material typography styles to start with
 val Typography = Typography(
     bodySmall = TextStyle(
-        fontFamily = SpaceMono,
+        fontFamily = JetBrainsMono,
         fontWeight = FontWeight.Light,
         fontSize = 12.sp,
     ),
     bodyMedium = TextStyle(
-        fontFamily = SpaceMono,
+        fontFamily = JetBrainsMono,
         fontWeight = FontWeight.Normal,
         fontSize = 14.sp
     ),
     bodyLarge = TextStyle(
-        fontFamily = SpaceMono,
+        fontFamily = JetBrainsMono,
         fontWeight = FontWeight.Normal,
         fontSize = 16.sp,
         lineHeight = 24.sp,
         letterSpacing = 0.5.sp
     ),
     labelMedium = TextStyle(
-        fontFamily = SpaceMono,
+        fontFamily = JetBrainsMono,
         fontWeight = FontWeight.Normal,
     ),
     headlineMedium = TextStyle(
-        fontFamily = SpaceMono,
+        fontFamily = JetBrainsMono,
         fontWeight = FontWeight.Bold,
         fontSize = 18.sp
     )
